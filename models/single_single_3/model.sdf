@@ -1,16 +1,13 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='hill_road'>
+  <model name='single_single_3'>
 	<static>true</static>
-	<pose>18.4077 14.9514 0 0 0 0</pose>
     <link name='link_0'>
-    
-    	<pose>-5.589 1.1373 0 0 0 2.1345</pose>
 		
 		<collision name="collision">
 		<geometry>
 			<box>
-	            <scale>0.1 0.1 0.1</scale>
+	            <scale>0.17 0.17 0.17</scale>
 			</box>
 		</geometry>
 		</collision>
@@ -19,8 +16,8 @@
 		<cast_shadows>true</cast_shadows>
 		<geometry>
 			<mesh>
-				<uri>model://hill_road/mesh/model.dae</uri>
-	            <scale>0.1 0.1 0.1</scale>
+				<uri>model://single_road/mesh/model.dae</uri>
+	            <scale>0.17 0.17 0.17</scale>
 			</mesh>
 		</geometry>
 		</visual>

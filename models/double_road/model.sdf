@@ -1,8 +1,8 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='hill_road'>
+  <model name='double_road'>
 	<static>true</static>
-	<pose>18.4077 14.9514 0 0 0 0</pose>
+	<pose>3.2504 1.5538 0 0 0 1.0167</pose>
     <link name='link_0'>
     
     	<pose>-5.589 1.1373 0 0 0 2.1345</pose>
@@ -19,7 +19,7 @@
 		<cast_shadows>true</cast_shadows>
 		<geometry>
 			<mesh>
-				<uri>model://hill_road/mesh/model.dae</uri>
+				<uri>model://double_road/mesh/model.dae</uri>
 	            <scale>0.1 0.1 0.1</scale>
 			</mesh>
 		</geometry>
