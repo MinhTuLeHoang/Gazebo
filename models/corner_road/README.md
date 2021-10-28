@@ -1,0 +1,1 @@
+![góc cua](https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/79bea779-c695-46db-843a-636003f986d2)
