@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='traffic_light'>
+	<static>true</static>
+    <link name='link_0'>
+		
+		<collision name="collision">
+		<geometry>
+			<mesh>
+				<uri>model://traffic_light/mesh/model.dae</uri>
+	            <scale>0.0015 0.0015 0.0015</scale>
+			</mesh>
+		</geometry>
+		</collision>
+		
+		<visual name="visual">
+		<cast_shadows>true</cast_shadows>
+		<geometry>
+			<mesh>
+				<uri>model://traffic_light/mesh/model.dae</uri>
+	            <scale>0.0015 0.0015 0.0015</scale>
+			</mesh>
+		</geometry>
+		</visual>
+    </link>
+  </model>
+</sdf>
