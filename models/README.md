@@ -25,7 +25,8 @@ ROAD:
 - double_single_4 (ngã 4 2-1):
 ![ngã 4 (2-1)](https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/e4cbb472-fe2c-47a0-b20d-fe5add619228)
 
-
+- bonus hill_road (hình dấu ~):
+![hill road](https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/c286aa63-e0d4-433a-9eb2-8fe9ce6881a2)
 
 TRAFFIC-SIGN:
 ------------
