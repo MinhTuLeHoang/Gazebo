@@ -2,16 +2,14 @@
 <sdf version='1.7'>
   <model name='double_road'>
 	<static>true</static>
-	<pose>3.2504 1.5538 0 0 0 1.0167</pose>
     <link name='link_0'>
-    
-    	<pose>-5.589 1.1373 0 0 0 2.1345</pose>
 		
 		<collision name="collision">
 		<geometry>
-			<box>
-	            <scale>0.1 0.1 0.1</scale>
-			</box>
+			<mesh>
+				<uri>model://double_road/mesh/model.dae</uri>
+	            <scale>0.0 0.0 0.0</scale>
+			</mesh>
 		</geometry>
 		</collision>
 		
@@ -20,7 +18,7 @@
 		<geometry>
 			<mesh>
 				<uri>model://double_road/mesh/model.dae</uri>
-	            <scale>0.1 0.1 0.1</scale>
+	            <scale>0.13 0.13 0.13</scale>
 			</mesh>
 		</geometry>
 		</visual>
