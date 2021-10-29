@@ -1,1 +1,0 @@
-![đường 2 chiều có chỗ quay đầu](https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/60d042d3-c5af-43e8-9ab5-3e7d17fdc5d9)
