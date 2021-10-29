@@ -47,5 +47,5 @@ TRAFFIC-SIGN:
 <img src="./Ah_dont_download_this/forbid.png" width="100" height="200"/>
 
 - contruction (biển báo công trình -> chọn lane khác hoặc quẹo đường khác):
-<img src="./Ah_dont_download_this/contruction.png" width="250" height="200"/>
+<img src="./Ah_dont_download_this/contruction.png" width="240" height="200"/>
 
