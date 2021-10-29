@@ -32,7 +32,7 @@ TRAFFIC-SIGN:
 ------------
 
 - stop (thấy thì dừng xe lại 5->7s r chạy tiếp):
-![stop](./Ah_dont_download_this/stop.png | height=400)
+![stop](./Ah_dont_download_this/stop.png |height=400)
 
 ![stop](./Ah_dont_download_this/stop.png =400x100)
 
