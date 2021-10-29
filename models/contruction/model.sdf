@@ -8,7 +8,7 @@
 		<geometry>
 			<mesh>
 				<uri>model://contruction/mesh/model.dae</uri>
-	            <scale>0.15 0.15 0.15</scale>
+	            <scale>0.2 0.2 0.2</scale>
 			</mesh>
 		</geometry>
 		</collision>
@@ -18,7 +18,7 @@
 		<geometry>
 			<mesh>
 				<uri>model://contruction/mesh/model.dae</uri>
-	            <scale>0.15 0.15 0.15</scale>
+	            <scale>0.2 0.2 0.2</scale>
 			</mesh>
 		</geometry>
 		</visual>
