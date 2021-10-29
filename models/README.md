@@ -50,8 +50,8 @@ TRAFFIC-SIGN:
 <img src="./Ah_dont_download_this/contruction.png" width="240" height="200"/>
 
 - no_car, no_car_1 (biển báo cấm xe hơi -> chọn lane khác hoặc quẹo đường khác):
-|<img src="./Ah_dont_download_this/no_car.png" width="240" height="200"/>
-|<img src="./Ah_dont_download_this/no_car_1.png" width="240" height="200"/>|
+
+|<img src="./Ah_dont_download_this/no_car.png" width="240" height="200"/>|<img src="./Ah_dont_download_this/no_car_1.png" width="240" height="200"/>|
 
 - slow_down (biển báo đi chậm lại -> giảm tốc độ):
 <img src="./Ah_dont_download_this/slow_down.png" width="240" height="200"/>
