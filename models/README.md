@@ -43,6 +43,9 @@ TRAFFIC-SIGN:
 - stop (thấy thì dừng xe lại 5->7s r chạy tiếp):
 <img src="./Ah_dont_download_this/stop.png" width="100" height="200"/>
 
-- contruction (biển báo công trình -> chọn lane khác hoặc đường khác để đi):
-<img src="./Ah_dont_download_this/contruction.png" width="300" height="200"/>
+- forbid (biển báo chỉ đường cấm -> quẹo hướng khác):
+<img src="./Ah_dont_download_this/forbid.png" width="100" height="200"/>
+
+- contruction (biển báo công trình -> chọn lane khác hoặc quẹo đường khác):
+<img src="./Ah_dont_download_this/contruction.png" width="250" height="200"/>
 
