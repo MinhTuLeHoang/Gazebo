@@ -54,7 +54,7 @@ TRAFFIC-SIGN:
 <img src="./Ah_dont_download_this/no_car.png" width="240" height="200"/><img src="./Ah_dont_download_this/no_car_1.png" width="240" height="200"/>
 
 - slow_down (biển báo đi chậm lại -> giảm tốc độ):
-<img src="./Ah_dont_download_this/slow_down.png" width="170" height="200"/>
+<img src="./Ah_dont_download_this/slow_down.png" width="140" height="200"/>
 
 - turn_back (biển báo quay đầu xe -> quay đầu đi hướng ngược lại, sử dụng trên đường "change_lane"):
 <img src="./Ah_dont_download_this/turn_back.png" width="240" height="200"/>
