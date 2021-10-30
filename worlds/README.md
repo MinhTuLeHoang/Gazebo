@@ -27,3 +27,4 @@
 # Các thế giới đã build xong:
 
 - circle_world.world (dùng để test bo đường lane):
+<img src="../img/circle_world.png" width="240" height="200"/>
