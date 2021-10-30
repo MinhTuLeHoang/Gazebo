@@ -10,7 +10,7 @@
 </sky>
 ```
 - Ta được như sau:
-```
+```ruby
 <scene>
     <ambient>0.4 0.4 0.4 1</ambient>
     <background>0.7 0.7 0.7 1</background>
