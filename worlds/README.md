@@ -28,3 +28,6 @@
 
 - circle_world.world (dùng để test bo đường lane):
 <img src="../img/circle_world.png" width="240" height="200"/>
+
+- hill_world.world (dùng để test bám lane):
+<img src="../img/hill_world.png" width="240" height="200"/>
