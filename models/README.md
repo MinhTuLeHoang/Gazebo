@@ -59,3 +59,21 @@ TRAFFIC-SIGN:
 - turn_back (biển báo quay đầu xe -> quay đầu đi hướng ngược lại, sử dụng trên đường "change_lane"):
 <img src="./Ah_dont_download_this/turn_back.png" width="240" height="200"/>
 
+- no_turn_left (biển báo cấm quẹo trái):
+<img src="./Ah_dont_download_this/no_turn_left.png" width="240" height="200"/>
+
+- no_turn_right (biển báo cấm quẹo phải):
+<img src="./Ah_dont_download_this/no_turn_right.png" width="240" height="200"/>
+
+- no_turn_back (biển báo cấm quay đầu):
+<img src="./Ah_dont_download_this/no_turn_back.png" width="240" height="200"/>
+
+
+- turn_left, turn_left_1 (biển báo quẹo trái):
+
+<img src="./Ah_dont_download_this/turn_left.png" width="100" height="200"/><img src="./Ah_dont_download_this/turn_left_1.png" width="100" height="200"/>
+
+- turn_right, turn_right_1 (biển báo quẹo phải):
+
+<img src="./Ah_dont_download_this/turn_right.png" width="100" height="200"/><img src="./Ah_dont_download_this/turn_right_1.png" width="100" height="200"/>
+
