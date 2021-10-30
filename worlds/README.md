@@ -24,5 +24,5 @@
 </scene>
 ```
 
-# Cách để thêm <light> vào trong gazebo:
+# Cách để thêm \<light\> vào trong gazebo:
 
