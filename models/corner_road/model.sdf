@@ -7,7 +7,7 @@
 		<collision name="collision">
 		<geometry>
 			<mesh>
-				<uri>model://single_road/mesh/model.dae</uri>
+				<uri>model://corner_road/mesh/model.dae</uri>
 	            <scale>0.0 0.0 0.0</scale>
 			</mesh>
 		</geometry>
@@ -17,7 +17,7 @@
 		<cast_shadows>true</cast_shadows>
 		<geometry>
 			<mesh>
-				<uri>model://single_road/mesh/model.dae</uri>
+				<uri>model://corner_road/mesh/model.dae</uri>
 	            <scale>0.13 0.13 0.13</scale>
 			</mesh>
 		</geometry>
