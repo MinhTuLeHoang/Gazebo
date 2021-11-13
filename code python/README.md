@@ -13,3 +13,4 @@
 1. Run one world in Gazebo (export waffle_pi & roslaunch)
 2. Turn on play button (pause button), to start simulation
 3. ```rosrun beginner_tutorials detection.py```
+
