@@ -40,6 +40,53 @@ ROAD:
 TRAFFIC-SIGN:
 ------------
 
+- 0-ahead-only:
+<img src="../img/0-ahead-only.png" width="200" height="200"/>
+
+- 1-ahead-turn-left:
+<img src="../img/1-ahead-turn-left.png" width="200" height="200"/>
+
+- 2-ahead-turn-right:
+<img src="../img/2-ahead-turn-right.png" width="200" height="200"/>
+
+- 3-do-not-enter:
+<img src="../img/3-do-not-enter.png" width="200" height="200"/>
+
+- 4-ice-snow:
+<img src="../img/4-ice-snow.png" width="200" height="200"/>
+
+- 5-maximum-speed-limit60:
+<img src="../img/5-maximum-speed-limit60.png" width="200" height="200"/>
+
+- 6-pass-by-left:
+<img src="../img/6-pass-by-left.png" width="200" height="200"/>
+
+- 7-pass-by-right:
+<img src="../img/7-pass-by-right.png" width="200" height="200"/>
+
+- 8-pedestrian-crossing:
+<img src="../img/8-pedestrian-crossing.png" width="200" height="200"/>
+
+- 9-road-closed-prohibit:
+<img src="../img/9-road-closed-prohibit.png" width="200" height="200"/>
+
+- 10-road-work:
+<img src="../img/10-road-work.png" width="200" height="200"/>
+
+- 11-stop:
+<img src="../img/11-stop.png" width="200" height="200"/>
+
+- 12-turn-left-ahead:
+<img src="../img/12-turn-left-ahead.png" width="200" height="200"/>
+
+- 13-turn-right-ahead:
+<img src="../img/13-turn-right-ahead.png" width="200" height="200"/>
+
+- 14-watch-for-children:
+<img src="../img/1-ahead-turn-left.png" width="200" height="200"/>
+
+
+
 - stop (thấy thì dừng xe lại 5->7s r chạy tiếp):
 <img src="./Ah_dont_download_this/stop.png" width="100" height="200"/>
 
