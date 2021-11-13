@@ -4,7 +4,7 @@
 2. Download the Deep Learning model, which name "model-370.h5"
 3. Download the "detection.py"
     - Note: please install tensorflow package if you haven't yet
-    - Note: at line 16, you must change to your path lead to your model-370.h5
+    - Note: at line 16, you must change to your path lead to your model-370.h5 (don't use ~ in your path, I get error, and don't know why :), if u can use ~ in your path, contact me, thks all)
 
 # How to use it:
 
