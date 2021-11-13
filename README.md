@@ -4,9 +4,10 @@
 2. Copy exactly the same folder from github to the folder in your computer.
 
 
-# Running world.launch file
+# How to simulate a world with Gazebo
 1. ```export TURTLEBOT3_MODEL=waffle_pi``` (only waffle_pi has a camera)
 2. ```roslaunch turtlebot3_gazebo <name of world>.launch```
+    - There is a list of worlds below that you can choose
 
 # List of world:
 1. hill_world.launch:
