@@ -6,9 +6,10 @@
 		
 		<collision name="collision">
 		<geometry>
-			<box>
+			<mesh>
+				<uri>model://single_road/mesh/model.dae</uri>
 	            <scale>0.0 0.0 0.0</scale>
-			</box>
+			</mesh>
 		</geometry>
 		</collision>
 		

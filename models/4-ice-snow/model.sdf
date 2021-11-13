@@ -1,14 +1,14 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='single_single_3'>
+  <model name='4-ice-snow'>
 	<static>true</static>
     <link name='link_0'>
 		
 		<collision name="collision">
 		<geometry>
 			<mesh>
-				<uri>model://single_single_3/mesh/model.dae</uri>
-	            <scale>0.0 0.0 0.0</scale>
+				<uri>model://4-ice-snow/mesh/model.dae</uri>
+	            <scale>0 0 0</scale>
 			</mesh>
 		</geometry>
 		</collision>
@@ -17,8 +17,8 @@
 		<cast_shadows>true</cast_shadows>
 		<geometry>
 			<mesh>
-				<uri>model://single_single_3/mesh/model.dae</uri>
-	            <scale>0.13 0.13 0.13</scale>
+				<uri>model://4-ice-snow/mesh/model.dae</uri>
+	            <scale>0.1 0.1 0.1</scale>
 			</mesh>
 		</geometry>
 		</visual>
