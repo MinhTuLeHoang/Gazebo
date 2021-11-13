@@ -74,9 +74,9 @@
     </include>
     
     <include>
-      <name>right_sign</name>
+      <name>turn-right-ahead</name>
       <pose>-6.13 7.08 -0.1 0 0 -1.5708</pose>
-      <uri>model://right_1</uri>
+      <uri>model://13-turn-right-ahead</uri>
     </include>
     
     
@@ -115,9 +115,9 @@
     </include>
     
     <include>
-      <name>forward_sign</name>
+      <name>ahead-only</name>
       <pose>1.13 0.25 -0.1 0 0 -1.5708</pose>
-      <uri>model://move_forward</uri>
+      <uri>model://0-ahead-only</uri>
     </include>
     
     <include>
@@ -154,9 +154,9 @@
     </include>
     
     <include>
-      <name>turn_left</name>
+      <name>turn-left-ahead</name>
       <pose>7.35 1.49 -0.1 0 0 -1.5708</pose>
-      <uri>model://left_1</uri>
+      <uri>model://12-turn-left-ahead</uri>
     </include>
     
     
@@ -181,9 +181,9 @@
     </include>
     
     <include>
-      <name>stop</name>
+      <name>11-stop</name>
       <pose>6.45 10.36 -0.1 0 0 0</pose>
-      <uri>model://stop</uri>
+      <uri>model://11-stop</uri>
     </include>
     
     
