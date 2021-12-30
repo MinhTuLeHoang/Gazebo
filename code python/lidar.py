@@ -56,8 +56,8 @@ def stop():
 	num_msg.header = 5
 	num_msg.base_arg = 0
 	num_msg.int_1 = 0		#alpha in change_lane.py
-	num_msg.int_2 = 0		#V_a   in change_lane.py
 	num_msg.float_1 = 0		#delta_d in chane_lane.py
+	num_msg.float_2 = 0		#V_a   in change_lane.py
 	pub.publish(num_msg)
 
 
@@ -67,8 +67,8 @@ def change_lane_toLeft():
 	num_msg.header = 5
 	num_msg.base_arg = 1
 	num_msg.int_1 = 15		#alpha in change_lane.py
-	num_msg.int_2 = 0.15		#V_a   in change_lane.py
 	num_msg.float_1 = 0.4		#delta_d in chane_lane.py
+	num_msg.float_2 = 0.15		#V_a   in change_lane.py
 	pub.publish(num_msg)
 
 
@@ -78,8 +78,8 @@ def change_lane_toRight():
 	num_msg.header = 5
 	num_msg.base_arg = 2
 	num_msg.int_1 = 15		#alpha in change_lane.py
-	num_msg.int_2 = 0.15		#V_a   in change_lane.py
 	num_msg.float_1 = 0.4		#delta_d in chane_lane.py
+	num_msg.float_2 = 0.15		#V_a   in change_lane.py
 	pub.publish(num_msg)
 
 
