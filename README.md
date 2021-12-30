@@ -27,10 +27,16 @@
 
 # List of source code:
 
-1. detection:
+1. detection.py:
 
 > Traffic sign detection and classification (bản cuối cùng được Nhân giữ)
 > Đi kèm với **model-370.h5**
 
-1. change_lane_Tu:
+1. change_lane_Tu.py:
 > Khi gõ lệnh sẽ chỉ thực hiện change lane
+
+1. lidar.py:
+> khối để gửi message khi phát hiện vật cản
+
+1. lidar_src.py:
+> Khối để tôi test khoảng cách giữa các vật
