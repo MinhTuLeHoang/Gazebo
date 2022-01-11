@@ -1,0 +1,47 @@
+<?xml version="1.0" encodind="utf-8"?>
+<!-- Last update: 16h02 - 10/01/2022 -->
+<!-- Updated by: Minh Tú Lê Hoàng -->
+<root>
+    <PARAMETER>
+        <!--   chạy trên đường thường   -->
+        <v_linear_normal unit="m/s">3</v_linear_normal>
+
+        <!--   khi chuyển làn   -->
+        <v_linear_changeLane unit="m/s">3</v_linear_changeLane>
+        <v_angular_changeLane uniit="rad/s">0</v_angular_changeLane>
+        <delta_d unit="m">0.5</delta_d>
+    </PARAMETER>
+
+    <OBSTACLE>
+        <rule name="front_block" id="O0">
+            <condition>&lt;</condition>
+        </rule>
+    </OBSTACLE>
+
+    <SIGN>
+        <rule name="60km/h" id="S0" sign_id="5">
+            <condition>
+        vel.linear.x > 60 and car_behind == True
+            </condition>
+            <priority>2.0</priority>
+            <action name="SLOW_DOWN" n_param="2">
+                <param name="target_speed" address="float1" unit="m/s">16.0</param>
+                <param name="gia tốc a" address="float2" unit="m/s^2">-1.2</param>
+            </action>
+        </rule>
+
+        <rule name="60km/h" id="S1" sign_id="5">
+            <condition>
+        vel.linear.x &lt; 60 and car_behind == False
+            </condition>
+            <priority>2.0</priority>
+            <action name="SLOW_DOWN" n_param="2">
+                <param name="target_speed" address="float1" unit="m/s">16.0</param>
+                <param name="gia tốc a" address="float2" unit="m/s^2">-3</param>
+            </action>
+        </rule>
+
+
+    </SIGN>
+</root>
+

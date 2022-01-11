@@ -10,15 +10,15 @@ from rosgraph_msgs.msg import Clock
 
 ################################################
 ##                                            ##
-##	This file is made by Minh Tu              ##
-##	|----------------------------|            ##
-##	|version: 1.0.0              |            ##
-##	|Update date: 29-12-2021     |            ##
-##	|----------------------------|            ##
-##	|Description:                |            ##
-##	|   - Depend gazebo clock    |            ##
-##	|   - Difficult to ctr h     |            ##
-##	|----------------------------|            ##
+##  This file is made by Minh Tu              ##
+##  |----------------------------|            ##
+##  |version: 1.0.0              |            ##
+##  |Update date: 29-12-2021     |            ##
+##  |----------------------------|            ##
+##  |Description:                |            ##
+##  |   - Depend gazebo clock    |            ##
+##  |   - Difficult to ctr h     |            ##
+##  |----------------------------|            ##
 ##                                            ##
 ################################################
 
@@ -163,8 +163,5 @@ while(True):
 	if(t >= 2):
 		break;
 	pub.publish (vel_cmd)
-
-
-
 
 
