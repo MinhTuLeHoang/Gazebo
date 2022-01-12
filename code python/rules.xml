@@ -1,5 +1,5 @@
-<?xml version="1.0" encodind="utf-8"?>
-<!-- Last update: 16h02 - 10/01/2022 -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Last update: 16h02 - 12/01/2022 -->
 <!-- Updated by: Minh Tú Lê Hoàng -->
 <root>
     <PARAMETER>
@@ -12,28 +12,31 @@
         <delta_d unit="m">0.5</delta_d>
     </PARAMETER>
 
+    <XML_PRINCIPLE>
+        <variable>
+            <myCar type="class">
+                <speed type="class">
+                    <linear type="variable"></linear>
+                    <angular type="variable"></angular>
+                </speed>
+            </myCar>
+        </variable>
+
+        <list_of_actions>
+            <action>stop</action>
+        </list_of_actions>
+    </XML_PRINCIPLE>
+
     <OBSTACLE>
         <rule name="front_block" id="O0">
             <condition>&lt;</condition>
         </rule>
     </OBSTACLE>
 
-    <SIGN>
-        <rule name="60km/h" id="S0" sign_id="5">
-            <condition>
-        vel.linear.x > 60 and car_behind == True
-            </condition>
-            <priority>2.0</priority>
-            <action name="SLOW_DOWN" n_param="2">
-                <param name="target_speed" address="float1" unit="m/s">16.0</param>
-                <param name="gia tốc a" address="float2" unit="m/s^2">-1.2</param>
-            </action>
-        </rule>
-
-        <rule name="60km/h" id="S1" sign_id="5">
-            <condition>
-        vel.linear.x &lt; 60 and car_behind == False
-            </condition>
+    <SIGN arr_size="10" percentage="0.7" alive_time="5">
+        <rule name="60km/h" sign_id="13">
+            <condition>myCar.speed.linear &gt; 0.6</condition>
+            <delay unit="second">5</delay>
             <priority>2.0</priority>
             <action name="SLOW_DOWN" n_param="2">
                 <param name="target_speed" address="float1" unit="m/s">16.0</param>
@@ -41,7 +44,20 @@
             </action>
         </rule>
 
+        <rule name="60km/h" sign_id="13">
+            <condition>myCar.speed.linear &lt; 0.6</condition>
+            <delay unit="second">0</delay>
+            <priority>2.0</priority>
+            <action name="stop" n_param="0">
 
+            </action>
+        </rule>
+
+        <rule name="60km/h" sign_id="13">
+            <condition>5 &lt; 0.6</condition>
+            <delay unit="second">0</delay>
+            <priority>2.0</priority>
+            <action>haha lala</action>
+        </rule>
     </SIGN>
 </root>
-
