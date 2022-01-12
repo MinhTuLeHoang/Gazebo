@@ -74,12 +74,6 @@ BUSY = 1
 
 state = FREE
 
-last_sign_time = 0
-sign_arr = []
-temp =root.xpath("./SIGN")
-SIGN_ARR_SIZE = temp.attrib["arr_size"]
-SIGN_ARR_ALIVE_TIME = temp.attrib["alive_time"]
-
 
 
 class MyCar:
@@ -94,9 +88,6 @@ def callbackFunction(msg):
 	print("okela")
 	global state
 	global myCar
-	global last_sign_time
-
-	global sign_arr
 
 
 	if(msg.header == LIDAR):
@@ -104,34 +95,22 @@ def callbackFunction(msg):
 	elif(msg.header == SIGN):
 		print("I see ", end="")
 		print(msg.base_arg)
-
-		if not sign_arr:	#sign_arr is empty
-			last_sign_time = rospy.get_time()
-		else:
-			current_time = rospy.get_time()
-			if(current_time - last_sign_time >= SIGN_ARR_ALIVE_TIME):
-				sign_arr = []
-				last_sign_time = rospy.get_time()
-
 		
-		sign_arr.append(msg.base_arg)
-		if(len(sign_arr) >= SIGN_ARR_SIZE):
-			sign_arr = []
-			state = BUSY
-			sign_id = most_frequent(sign_arr)
+		state = BUSY
+		sign_id = msg.base_arg
 
-			global root
-			rules = root.xpath("./SIGN/rule[@sign_id=$temp]", temp=sign_id)
+		global root
+		rules = root.xpath("./SIGN/rule[@sign_id=$temp]", temp=sign_id)
 
-			current_rule = ""
-			for rule in rules:
-				condition = rule.find("condition").text
-				if(eval(condition)):
-					current_rule = rule
-					break
+		current_rule = ""
+		for rule in rules:
+			condition = rule.find("condition").text
+			if(eval(condition)):
+				current_rule = rule
+				break
 
-			action = current_rule.find("action").attrib["name"]
-			eval(action + "()")
+		action = current_rule.find("action").attrib["name"]
+		eval(action + "()")
 		
 		# print("I'm traffic sign")
 	elif(state == FREE and msg.header == LANE):
