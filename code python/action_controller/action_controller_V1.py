@@ -21,8 +21,7 @@ from lxml import etree
 ##   |Update date: 12-01-2022     |         ##
 ##   |----------------------------|         ##
 ##   |Description:                |         ##
-##   |   - Depend gazebo clock    |         ##
-##   |   - Difficult to ctr h     |         ##
+##   |   - Based on rule xml      |         ##
 ##   |----------------------------|         ##
 ##                                          ##
 ##############################################

@@ -18,11 +18,13 @@ from lxml import etree
 ##   This file is made by Minh Tu           ##
 ##   |----------------------------|         ##
 ##   |version: 2.1.0              |         ##
-##   |Update date: 12-01-2022     |         ##
+##   |Update date: 13-01-2022     |         ##
 ##   |----------------------------|         ##
 ##   |Description:                |         ##
-##   |   - Depend gazebo clock    |         ##
-##   |   - Difficult to ctr h     |         ##
+##   |   - Based on rule xml      |         ##
+##   |   - lọc trường hợp nhảy    |         ##
+##   |  qua nhảy lại giữa 2 hay   |         ##
+##   |  3 loại biển báo           |         ##
 ##   |----------------------------|         ##
 ##                                          ##
 ##############################################
