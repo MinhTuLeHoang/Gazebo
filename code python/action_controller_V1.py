@@ -27,7 +27,7 @@ from lxml import etree
 ##                                          ##
 ##############################################
 
-
+rospy.init_node("action_topic", disable_signals=True)
 pub = rospy.Publisher("/cmd_vel",Twist, queue_size=5)
 vel_cmd = Twist()
 
@@ -54,11 +54,6 @@ def Initial_System():
 
 # Some function
 ##################
-
-def most_frequent(List):
-	return max(set(List), key = List.count)
-
-
 def stop():
 	vel_cmd.linear.x = 0
 	vel_cmd.angular.z = 0
@@ -138,6 +133,5 @@ Initial_System()
 
 while not rospy.is_shutdown():
 	print("---------------begin---------------")
-	rospy.init_node("action_topic", disable_signals=True)
 	lis = rospy.Subscriber("/controller", Num, callbackFunction)
 	rospy.spin()
