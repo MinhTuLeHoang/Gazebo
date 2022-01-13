@@ -17,7 +17,7 @@ from lxml import etree
 ##                                          ##
 ##   This file is made by Minh Tu           ##
 ##   |----------------------------|         ##
-##   |version: 1.1.0              |         ##
+##   |version: 2.1.0              |         ##
 ##   |Update date: 12-01-2022     |         ##
 ##   |----------------------------|         ##
 ##   |Description:                |         ##
@@ -58,20 +58,6 @@ def Initial_System():
 def most_frequent(List):
 	return max(set(List), key = List.count)
 
-SIGN_FPS_MODE = 0 
-LANE_FPS_MODE = 1
-LIDAR_FPS_MODE = 2
-def calculate(mode):
-	if (mode == SIGN_FPS_MODE):
-		print("")
-	elif (mode == LANE_FPS_MODE):
-		print("")
-	elif (mode == LIDAR_FPS_MODE):
-		print("")
-	else:
-		print("Error at calculate(), wrong parameter !!!")
-	
-
 
 def stop():
 	vel_cmd.linear.x = 0
@@ -103,10 +89,6 @@ class MyCar:
 		linear = 0
 		angular = 0
 	speed = Speed()
-	class Fps:
-		sign_msg = 0
-		lane_msg = 0
-	fps = Fps()
 myCar = MyCar()
 	
 
@@ -123,9 +105,6 @@ def callbackFunction(msg):
 	if(msg.header == LIDAR):
 		print("I'm lidar msg")
 	elif(msg.header == SIGN):
-		temp = rospy.get_time()
-		print(temp - l)
-		l = temp
 		print("I see ", end="")
 		print(msg.base_arg)
 
