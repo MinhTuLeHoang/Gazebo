@@ -1,5 +1,5 @@
 <sdf version='1.4'>
-  <world name='city1'>
+  <world name='city1_world'>
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
@@ -38,7 +38,7 @@
     
     <include>
       <name>city1</name>
-      <pose>-7.0 6.0 0 0 0 0</pose>
+      <pose>0.0 0.0 0.1 0 0 -1.5708</pose>
       <uri>model://city1</uri>
     </include>
     
